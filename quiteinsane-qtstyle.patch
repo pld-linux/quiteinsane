@@ -1,0 +1,41 @@
+--- quiteinsane-0.10/quiteinsane/qscannersetupdlg.cpp.orig	Sat Apr 26 14:27:15 2003
++++ quiteinsane-0.10/quiteinsane/qscannersetupdlg.cpp	Fri Nov 28 16:23:23 2003
+@@ -907,23 +907,23 @@
+   switch(s)
+   {
+     case 0:
+-     QApplication::setStyle(new QWindowsStyle());
++     QApplication::setStyle("Windows");
+      break;
+     case 1:
+-     QApplication::setStyle(new QMotifStyle());
++     QApplication::setStyle("Motif");
+      break;
+     case 2:
+-     QApplication::setStyle(new QMotifPlusStyle());
++     QApplication::setStyle("MotifPlus");
+      break;
+     case 3:
+-     QApplication::setStyle(new QPlatinumStyle());
++     QApplication::setStyle("Platinum");
+      break;
+     case 4:
+-     QApplication::setStyle(new QSGIStyle());
++     QApplication::setStyle("SGI");
+      break;
+     case 5:
+      {
+-       QApplication::setStyle(new QCDEStyle(true));
++       QApplication::setStyle("CDE");
+        QPalette p( QColor( 75, 123, 130 ) );
+        p.setColor( QPalette::Active, QColorGroup::Base, QColor( 55, 77, 78 ) );
+        p.setColor( QPalette::Inactive, QColorGroup::Base, QColor( 55, 77, 78 ) );
+@@ -947,7 +947,7 @@
+        break;
+      }
+     default:
+-     QApplication::setStyle(new QWindowsStyle());
++     QApplication::setStyle("Windows");
+      break;
+   }
+   mStyle = s;
