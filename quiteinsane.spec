@@ -28,7 +28,7 @@ programming interface to access raster scanner hardware.
 
 %description -l pl
 QuiteInsane to graficzny interfejs do SANE (projektu maj±cego na celu
-dostarczenie standardowego interfejsu prorgramistycznego do dostêpu do
+dostarczenie standardowego interfejsu programistycznego do dostêpu do
 skanerów rastrowych).
 
 %prep
