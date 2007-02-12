@@ -2,7 +2,7 @@
 %bcond_with	kde	# integrate with KDE to use KDE styles
 #
 Summary:	QuiteInsane - Qt-based graphical frontend for SANE
-Summary(pl):	QuiteInsane - oparty na Qt graficzny interfejs do SANE
+Summary(pl.UTF-8):   QuiteInsane - oparty na Qt graficzny interfejs do SANE
 Name:		quiteinsane
 Version:	0.10
 Release:	1
@@ -26,10 +26,10 @@ QuiteInsane is a graphical frontend for SANE ("Scanner Access Now
 Easy"). The intention behind SANE is to provide a standard application
 programming interface to access raster scanner hardware.
 
-%description -l pl
-QuiteInsane to graficzny interfejs do SANE (projektu maj±cego na celu
-dostarczenie standardowego interfejsu programistycznego do dostêpu do
-skanerów rastrowych).
+%description -l pl.UTF-8
+QuiteInsane to graficzny interfejs do SANE (projektu majÄ…cego na celu
+dostarczenie standardowego interfejsu programistycznego do dostÄ™pu do
+skanerÃ³w rastrowych).
 
 %prep
 %setup -q
