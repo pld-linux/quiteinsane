@@ -2,7 +2,7 @@
 %bcond_with	kde	# integrate with KDE to use KDE styles
 #
 Summary:	QuiteInsane - Qt-based graphical frontend for SANE
-Summary(pl.UTF-8):   QuiteInsane - oparty na Qt graficzny interfejs do SANE
+Summary(pl.UTF-8):	QuiteInsane - oparty na Qt graficzny interfejs do SANE
 Name:		quiteinsane
 Version:	0.10
 Release:	1
