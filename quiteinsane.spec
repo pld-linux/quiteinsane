@@ -17,7 +17,7 @@ Source2:	http://dl.sourceforge.net/quiteinsane/%{name}_fr.qm.gz
 Patch0:		%{name}-qtstyle.patch
 URL:		http://quiteinsane.sourceforge.net/index.shtml
 %{?with_kde:BuildRequires:	kdelibs-devel}
-BuildRequires:	qt-devel >= 3.0.1
+BuildRequires:	qt-devel >= 1:3.0.1
 BuildRequires:	sane-backends-devel >= 1.0.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
